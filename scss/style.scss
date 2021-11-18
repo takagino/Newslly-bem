@@ -1,6 +1,15 @@
 @charset "utf-8";
 
 $color-text: #A6ADB4;
+$color-heading: #202124;
+$color-gray: #F6F8F9;
+$color-accent: #FA6980;
+
+@mixin inner($w:800px){
+    max-width: $w;
+    width: 90%;
+    margin: 0 auto;
+}
 
 body{
     color: $color-text;
@@ -17,4 +26,23 @@ img{
 
 li{
     list-style: none;
+}
+
+// BLOCK-------------------
+
+.title-main{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EBEDED;
+    color: $color-heading;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.trending{
+    background-color: $color-gray;
+
+    &__inner{
+        @include inner();
+    }
 }

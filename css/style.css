@@ -14,4 +14,22 @@ img {
 li {
   list-style: none;
 }
+
+.title-main {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #EBEDED;
+  color: #202124;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.trending {
+  background-color: #F6F8F9;
+}
+.trending__inner {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
